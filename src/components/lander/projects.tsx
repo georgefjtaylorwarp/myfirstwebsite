@@ -29,7 +29,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="py-24 bg-gradient-to-b from-background to-muted">
+    <section className="py-24 bg-gradient-to-b from-background to-muted min-h-screen flex flex-col justify-center items-center">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold mb-16 text-center tracking-tighter">projects</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
